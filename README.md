@@ -9,8 +9,9 @@ This is a simple Python terminal game where you guess a randomly generated numbe
 - The game gives you hints whether your guess is too high or too low.
 - You can play as many rounds as you want.
 
---How to run--*
+--How to run--
 
 -Just make sure you have Python installed.
+
 
 
