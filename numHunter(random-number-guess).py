@@ -38,10 +38,10 @@ continue_playing = True
 least = 1
 end = 10
 change = input("The default mode has a range from 1 to 10.\n\
-                If you want to change it, enter 'H'.\
-                Otherwise, just press Enter.\n\
-                (Note: If you change this setting, you won’t be able to change it again unless you restart the game.)\n\
-                H or Enter:")
+If you want to change it, enter 'H'.\
+Otherwise, just press Enter.\n\
+(Note: If you change this setting, you won’t be able to change it again unless you restart the game.)\n\
+H or Enter:")
 if change == "H":
     least = input("Enter the lower number: ")
     end = input("Enter the bigger number: ")
@@ -57,4 +57,5 @@ while continue_playing:
         print(answer(cnum, unum))
         
     continue_playing = finish(cnum, count)
+
     
