@@ -17,7 +17,7 @@ def win(cnum, unum):
 
 def answer(cnum, unum):
     if cnum > unum:
-        return("'Your guess is larger.'\n")
+        return("'Your guess is smaller.'\n")
     if cnum < unum:
         return("'Your guess is greater.'\n")
     return "You Win!!!"
@@ -59,3 +59,4 @@ while continue_playing:
     continue_playing = finish(cnum, count)
 
     
+
